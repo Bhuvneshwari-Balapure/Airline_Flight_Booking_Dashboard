@@ -1,0 +1,36 @@
+CREATING FILE AND ADD SOME TEXT
+
+git init
+touch file name (to create a file)
+git log (to veiw the history)
+vim file name (to enter in the file and write some code)
+then press i to insert code in file
+then enter some code
+for saving first we enter (esc) escape button
+then press shift + ; (or shift + Q R)
+and then press x to exit
+then you can see the code you enter in the terminal is shown in the file
+
+
+
+
+FOR CREATING FOLDER IN THE CURRENT DIRECTORY
+
+write mkdir folder name (mkdir git) then enter
+folder will be created
+
+
+
+ls COMMAND ( TO CHECK HOW MANY FILE OR FOLDER PRESENT IN A DIRECTORY )
+ls enter
+
+TO ENTER IN THE FOLDER WE CREATED
+cd folder name (cd GIT) enter
+
+TO COME BACK TO THE PREVIOUS DIRECTORY
+cd .. enter
+
+
+
+git comit /m remark
+
