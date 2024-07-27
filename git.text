@@ -49,4 +49,7 @@ github profile folder
 
 
 U and M shows the file is in unstage area
-
+to solve this 
+1) git add .  (or git add file name)
+2) git status
+3) git commit -m "remark"
