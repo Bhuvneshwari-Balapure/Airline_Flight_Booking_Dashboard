@@ -13,7 +13,6 @@ then you can see the code you enter in the terminal is shown in the file
 
 
 
-
 FOR CREATING FOLDER IN THE CURRENT DIRECTORY
 
 write mkdir folder name (mkdir git) then enter
@@ -31,6 +30,23 @@ TO COME BACK TO THE PREVIOUS DIRECTORY
 cd .. enter
 
 
+TO STAGE THE FILE OR THE FOLDER
+git add .
 
-git comit /m remark
+TO CHECK WHEATHER IT IS ON STAGE AREA OR NOT
+git status enter
+
+when the file name is shows in green color it is in stage area
+
+NOW COMMIT THE FILE 
+git commit -m remark  enter (you can enter any remark as a comment)
+
+LOCAL REPOSITORY
+local git folder
+
+REMOTE REPOSITORY
+github profile folder
+
+
+U and M shows the file is in unstage area
 
