@@ -1,0 +1,81 @@
+{
+  "flightData": [
+    {
+      "id": "3134",
+      "airline_id": "Air India",
+      "flight_number": "AI101",
+      "departure_airport": "New Delhi",
+      "arrival_airport": "Mumbai",
+      "departure_time": "08:00",
+      "arrival_time": "11:00",
+      "duration": "3 hours 0 minutes",
+      "price": "2500"
+    },
+    {
+      "id": "21bd",
+      "airline_id": "IndiGo",
+      "flight_number": "6E202",
+      "departure_airport": "Mumbai",
+      "arrival_airport": "Bengaluru",
+      "departure_time": "09:00",
+      "arrival_time": "11:30",
+      "duration": "2 hours 30 minutes",
+      "price": "3000"
+    },
+    {
+      "id": "f86f",
+      "airline_id": "SpiceJet",
+      "flight_number": "SG303",
+      "departure_airport": "New Delhi",
+      "arrival_airport": "Hyderabad",
+      "departure_time": "10:00",
+      "arrival_time": "12:30",
+      "duration": "2 hours 30 minutes",
+      "price": "2800"
+    },
+    {
+      "id": "086b",
+      "airline_id": "Air India",
+      "flight_number": "6E203",
+      "departure_airport": "New Delhi",
+      "arrival_airport": "Pune",
+      "departure_time": "08:50",
+      "arrival_time": "09:56",
+      "duration": "1 hours 0 minutes",
+      "price": "2500"
+    },
+    {
+      "id": "e042",
+      "airline_id": "Indigo",
+      "flight_number": "BI202",
+      "departure_airport": "Banglore",
+      "departure_time": "05:00",
+      "arrival_airport": "Noida",
+      "arrival_time": "08:00",
+      "duration": "3 hours",
+      "price": "2500"
+    }
+  ],
+  "bookings": [
+    {
+      "airline_id": "16dc",
+      "flightNumber": "3134",
+      "departureCity": "New Delhi",
+      "arrivalCity": "Mumbai",
+      "departureDate": "2024-08-28",
+      "firstName": "Abhay",
+      "lastName": "Dixit",
+      "id": "4d21"
+    },
+    {
+      "id": "6784",
+      "airline_id": "Air India",
+      "flightNumber": "AI202",
+      "departureCity": "Hydrabaad",
+      "arrivalCity": "Indore",
+      "departureDate": "2024-10-31",
+      "firstName": "Ayushi",
+      "lastName": "Balapure"
+    }
+  ]
+}

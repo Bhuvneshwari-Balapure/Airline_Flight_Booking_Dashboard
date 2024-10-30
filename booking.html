@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- laptop view -->
+
+
+
+
+
+                <!-- Mobile view -->
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="customerDash.html">Search Flight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="displayBookedFlight.html">List of Booked Flight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="update.html">Update Flight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Del.html">Delete Flight </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Logout </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+    <main>
+
+
+
+
+        <div id="booking" class="modal-content modal-dialog modal-lg mt-5 px-4">
+
+
+            <div class="modal-header text-white mt-5 bg-dark">
+                <h5 class="modal-title mx-auto p-2 ">Book Your Flight</h5>
+            </div>
+
+
+            <div class="modal-body">
+
+                <form name="form" action="#" id="addflight" onsubmit="submitBooking(event)"
+                    class="d-flex flex-column my-3 fw-bold">
+
+
+
+                    <div class="form-group my-2">
+                        <p>Airline Id</p>
+                        <input type="text" name="airid" id="airline_id" class="form-control"
+                            placeholder="Example = 'Air India'" aria-describedby="helpId" autocomplete="off">
+                    </div>
+
+                    <div class="form-group my-2">
+                        <p>Flight Number</p>
+                        <input type="text" name="flightNum" id="flightNumber" class="form-control" placeholder="AI101"
+                            aria-describedby="helpId" autocomplete="off">
+                    </div>
+
+
+
+                    <div class="form-group my-2">
+                        <p>Departure City</p>
+                        <input type="text" name="dep" id="departureCity" class="form-control"
+                            placeholder="Enter Departure Airport" aria-describedby="helpId" autocomplete="off">
+
+
+                    </div>
+
+                    <div class="form-group my-2">
+
+                        <p>Arival City</p>
+                        <input type="text" name="ariv" id="arrivalCity" class="form-control "
+                            placeholder="Enter Arival Airport" aria-describedby="helpId" autocomplete="off">
+
+
+                    </div>
+
+                    <div class="form-group my-2  ">
+
+                        <p>Departure Date</p>
+                        <input type="date" name="depdate" id="departureDate" class="form-control "
+                            placeholder="Enter Arival Airport" aria-describedby="helpId" autocomplete="off">
+
+
+                    </div>
+
+
+                    <div class="form-group my-2">
+                        <p>Passengers First Name</p>
+
+                        <input type="name" class="form-control" name="fName" id="firstName"
+                            aria-describedby="emailHelpId" placeholder="Enter firstName">
+                    </div>
+
+
+                    <div class="form-group my-2">
+                        <p>Last Name</p>
+                        <input type="name" name="lastName" id="lastName" class="form-control"
+                            placeholder="Enter Last Name" aria-describedby="helpId" autocomplete="off">
+
+
+                    </div>
+
+
+
+
+
+                    <div class="modal-footer">
+                        <button id="save" class="btn btn-primary" type="submit">Save</button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- ---------------FLight booking----------------- -->
+
+
+    </main>
+
+    <footer>
+        <!-- place footer here -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="js/booling.js"></script>
+
+
+
+</body>
+
+</html>
